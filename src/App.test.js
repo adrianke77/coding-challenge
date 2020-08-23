@@ -2,10 +2,10 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
-import Videos from 'pages/Videos.js';
-import Upload from 'pages/Upload.js';
+import Videos from 'pages/Video/Videos.js';
+import Upload from 'pages/Upload/Upload.js';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 describe('Videos page', () => {
   it('should render basic elements and page without videos', () => {

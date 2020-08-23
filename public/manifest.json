@@ -1,12 +1,6 @@
 {
-    "short_name": "Shootsta Coding Challenge",
-    "name": "Shootsta Coding Challenge",
-    "icons": [
-        {
-            "src": "favicon.ico",
-            "type": "image/x-icon"
-        }
-    ],
+    "short_name": "Coding Challenge",
+    "name": "Coding Challenge",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#000000",

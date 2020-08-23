@@ -1,4 +1,8 @@
-# Shootsta
+# React Miniproject
+
+This is a small project using React Hooks, and a tiny Express/Node server with local filesystem for backend.
+
+It is intended as a basic example of coding style and ability.
 
 ## Available Scripts
 
@@ -24,3 +28,11 @@ Launches frontend test runner in the interactive watch mode.
 ### `npm run servertest`
 
 Runs backend tests.
+
+## Notes
+
+CSS approach follows a modified BEM (Block-Element-Modifier) style. Classes are named using <page-name>-<element>--<modifier> sequence.
+
+Pros of this approach include completely avoiding hierachial CSS issues (such as in SASS inheritance), very specific targeting of elements, and easy global search of relevant CSS classes.
+
+Cons of this approach include long CSS class names and requiring multiple class names in many element declarations in JSX or HTML.
