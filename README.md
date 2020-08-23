@@ -4,6 +4,10 @@
 
 In the project directory, you can run:
 
+### `npm i`
+
+Installs required Node modules from NPM for application, required for other scripts below.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
